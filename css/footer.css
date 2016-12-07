@@ -1,0 +1,65 @@
+.footer {
+    margin-top: 5px;
+}
+.footer .row .yellow-footer {
+    padding-left: 5px;
+    background: #fefecb;
+    line-height: 25px;
+}
+.footer .blue-footer {
+    height: 25px;
+    background: #99ccff;
+}
+.footer .row ~ .row {
+    margin-top: 5px;
+}
+#myFooterNavbar {
+    margin-bottom: 0;
+}
+#myFooterNavbar.navbar {
+    min-height: 25px;
+}
+#myFooterNavbar.navbar-default .navbar-brand {
+    padding: 2px 5px;
+    height: 25px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+}
+#myFooterNavbar.navbar-default {
+    font-size: 14px;
+    background-color: rgba(153, 204, 255, 1);
+    border-width: 0;
+    border-radius: 0;
+}
+#myFooterNavbar.navbar-default .navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(153, 204, 255, 1);
+}
+#myFooterNavbar.navbar-default .navbar-nav>li>a:hover,
+#myFooterNavbar.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(103, 150, 255, 1);
+}
+#myFooterNavbar.navbar-default .navbar-nav>.active>a,
+#myFooterNavbar.navbar-default .navbar-nav>.active>a:hover,
+#myFooterNavbar.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(103, 150, 255, 1);
+}
+#myFooterNavbar.navbar-default .navbar-toggle {
+    border-color: #6796ff;
+}
+#myFooterNavbar.navbar-default .navbar-toggle:hover,
+#myFooterNavbar.navbar-default .navbar-toggle:focus {
+    background-color: #6796ff;
+}
+#myFooterNavbar.navbar-default .navbar-toggle .icon-bar {
+    background-color: #6796ff;
+}
+#myFooterNavbar.navbar-default .navbar-toggle:hover .icon-bar,
+#myFooterNavbar.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #99ccff;
+}
